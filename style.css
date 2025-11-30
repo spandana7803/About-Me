@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+    color: #111;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    background:#ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+header .title {
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* Navigation */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color:#000;
+}
+nav a:hover { border-bottom:2px solid #000; }
+
+/* Intro, Resume Sections */
+.intro, .content-box {
+    width: 60%;
+    margin: auto;
+    background:#fff;
+    padding: 30px;
+    margin-top:40px;
+    border-radius:6px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+}
+
+/* Button */
+.btn {
+    display:block;
+    width: fit-content;
+    padding:10px 20px;
+    background:#000;
+    color:#fff;
+    text-decoration:none;
+    margin-top:20px;
+}
+.btn:hover { opacity:0.8; }
+
+/* Footer */
+footer {
+    text-align:center;
+    margin-top:50px;
+    padding:15px;
+    background:#111;
+    color:white;
+}
+/* Glass effect card */
+.glass-card {
+    backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.7);
+    transition: 0.3s;
+}
+.glass-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
+}
+
+/* Contact form */
+.contact-form {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:20px;
+}
+.contact-form input,
+.contact-form textarea {
+    padding:12px;
+    border:1px solid #111;
+    background:#fafafa;
+    font-size:16px;
+}
+.contact-form button:hover { opacity: 0.7; }
+
+/* Smooth Page Scroll */
+html { scroll-behavior: smooth; }
